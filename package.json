@@ -1,0 +1,16 @@
+{
+  "name": "web-server",
+  "version": "1.0.1",
+  "description": "Check weather using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elit-Altum",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.5",
+    "request": "^2.88.0"
+  }
+}

@@ -1,0 +1,98 @@
+* {
+      box-sizing: border-box;
+}
+
+body {
+      font-family: 'Lato';
+      color: #383838;
+      margin-left: 3.2rem;
+      margin-right: 3.2rem;
+      max-width: 650px;
+}
+
+h1{
+      font-weight: 800;
+      font-size: 4em;
+      padding: 0px;
+      margin-bottom: 10px;
+}
+
+header{
+      border: transparent solid 1px;
+      border-bottom: solid 1px #a3a1a1;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+}
+
+header a{
+      color: #a3a1a1;
+      text-decoration: none;
+      padding-right: 8px; 
+      transition: 0.3s ease-in;
+      font-size: 15px;
+}
+
+header a:hover{
+      color: #535252;
+}
+
+.wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 95vh;
+}
+
+#upper {
+      flex-grow: 1;
+}
+
+.portrait {
+      width: 300px;
+}
+
+.active{
+      color: #535252;
+      font-weight: 800;
+}
+
+footer {
+      border: transparent solid 1px;
+      border-top: solid 1px #a3a1a1;
+      padding-top: 0px;
+      margin-top: 20px;
+      color: #a3a1a1;
+}
+
+input{
+      border: 1px solid transparent;
+      border-bottom: 1px solid #a3a1a1;
+      color: #202020;
+      padding: 5px;
+}
+
+button{
+      padding: 5px;
+      border: none;
+      color: #f0f0f0;
+      background-color: #383838;
+      cursor: pointer;
+}
+
+button:hover{
+      background-color: #202020;
+}
+
+#error{
+      font-weight: 600;
+      color: rgb(221, 48, 48);
+}
+
+#message-1{
+      font-size: 35px;
+      font-weight: 800;
+}
+
+#message-2{
+      font-size: 16px;
+}
+
