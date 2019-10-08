@@ -12,6 +12,9 @@ const forecast = require('./utils/forecast');
 //Stores the app made by express function
 const app = express();
 
+//Gets port by Heroku or locally
+const port = process.env.PORT || 3000;
+
 //Path modification for express setup
 const publicDirectory = path.join(__dirname, '../public'); //concatenate path to public directory
 const viewsDirectory = path.join(__dirname, '../templates/views');
@@ -120,6 +123,6 @@ app.get('*', (req, res) => {
       })
 });
 
-app.listen(3000, () => {
-      console.log('Server is running on port : 3000');
+app.listen(port, () => {
+      console.log('Server is running on port : ' + port);
 })
