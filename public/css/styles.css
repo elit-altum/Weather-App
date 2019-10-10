@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+
 * {
       box-sizing: border-box;
 }
@@ -12,7 +14,7 @@ body {
 }
 
 h1{
-      font-weight: 800;
+      font-weight: 900;
       font-size: 4em;
       padding: 0px;
       margin-bottom: 10px;
@@ -20,7 +22,7 @@ h1{
 
 @media screen and (max-width: 650px) {
       h1 {
-            font-weight: 800;
+            font-weight: 900;
             font-size: 3em;
             padding: 0px;
             margin-bottom: 10px;
@@ -68,6 +70,41 @@ header a:hover{
 #upper .data{
       padding-top: 8vh;
       padding-bottom: 5vh;
+}
+
+.loader{
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top: 2px solid #202020;
+      animation: loaderAnim 0.8s infinite;
+}
+
+.nestedLoader{
+      min-width: 15px;
+      min-height: 15px;
+      margin: 0 auto;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top: 2px solid #202020;
+      animation: loaderAnim 0.6s infinite;
+}
+
+.inactive {
+      display: none;
+}
+
+@keyframes loaderAnim{
+      from{
+            transform: rotate(0deg);
+      } to {
+            transform: rotate(360deg);
+      }
 }
 
 input{
