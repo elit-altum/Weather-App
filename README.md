@@ -1,6 +1,5 @@
 # Weather-App
-Gets weather using Dark Sky API. Written using Node.js and ES6.
-Calculates coordinates using the MapBox API.
+Gets instant weather data using Dark Sky API and the MapBox API. Written using Node.js and ES6.
 
 ### Live Demo
 https://elit-weather-app.herokuapp.com/
