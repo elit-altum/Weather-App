@@ -119,7 +119,7 @@ app.get('*', (req, res) => {
       res.render('404', {
             title: '404: Page Not Found',
             name: 'Manan Sharma',
-            error: 'Page not available.'
+            error: 'Page not available. Return to main page.'
       })
 });
 
