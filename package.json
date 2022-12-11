@@ -9,7 +9,7 @@
   "author": "Elit-Altum",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hbs": "^4.0.5",
     "request": "^2.88.0"
   }
